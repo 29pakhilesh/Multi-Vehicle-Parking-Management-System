@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+
+# VSCode settings folder
+.vscode/
+
+# Build directory
+build/
+
+# Object files
+*.o
+
+# Compiled binaries
+parking
+parking.exe
+
+# Backup files
+*~
