@@ -72,9 +72,3 @@ Files used:
 5. Statistics  
 6. Pricing Table  
 7. Exit & Save  
-
-## **Future Enhancements**
-- Admin login dashboard  
-- JSON/CSV export  
-- GUI/Qt based application  
-- Web or mobile client  
