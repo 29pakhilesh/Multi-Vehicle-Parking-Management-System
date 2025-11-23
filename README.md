@@ -22,6 +22,8 @@ It supports vehicle parking, automated billing with GST, receipt generation, his
 │   main.cpp
 │   constant.h
 │   vehicle.h
+|   car.h / car.cpp
+|   bike.h / bike.cpp
 │   utils.h / utils.cpp
 │   pricing.h / pricing.cpp
 │   billing.h / billing.cpp
