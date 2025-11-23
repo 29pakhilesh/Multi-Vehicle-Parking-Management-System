@@ -51,8 +51,7 @@ It supports vehicle parking, automated billing with GST, receipt generation, his
 │   └── utils.cpp
 │
 ├── docs/
-│   ├── flowchart.jpg
-│   └── uml_class_diagram.png
+│   └── flowchart.jpg
 │
 ├── data/   (auto-generated at runtime)
 │   ├── parked.txt
