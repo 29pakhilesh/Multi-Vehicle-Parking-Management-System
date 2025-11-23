@@ -75,6 +75,7 @@ C++ Project/
 │   └── stats.txt
 │
 ├── Makefile
+├── .gitignore
 └── README.md
 ```
 
@@ -150,6 +151,4 @@ These files are created automatically when the program runs.
 7. Exit & Save  
 
 ---
-
-Enjoy your clean, modular, and professional C++ Parking Management System 🚗
 
