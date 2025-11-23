@@ -4,7 +4,7 @@ A modular, menu-driven parking management application written in C++.
 It supports vehicle parking, automated billing with GST, receipt generation, history tracking, statistics monitoring, and persistent storage across runs.
 
 ## **Features**
-- Park Vehicles (Car/Bike) with capacity limits
+- Park Vehicles (Car/Bike)
 - Remove Vehicles with:
   - Duration calculation
   - Dynamic pricing
@@ -19,26 +19,48 @@ It supports vehicle parking, automated billing with GST, receipt generation, his
 ## **Project Structure**
 ```
 /project
-│   main.cpp
-│   constant.h
-│   vehicle.h
-|   car.h / car.cpp
-|   bike.h / bike.cpp
-│   utils.h / utils.cpp
-│   pricing.h / pricing.cpp
-│   billing.h / billing.cpp
-│   receipt.h / receipt.cpp
-│   parkVehicle.h / parkVehicle.cpp
-│   removeVehicle.h / removeVehicle.cpp
-│   displayAll.h / displayAll.cpp
-│   showHistory.h / showHistory.cpp
-│   showStats.h / showStats.cpp
-│   persistence.h / persistence.cpp
 │
-└── Auto-generated files:
-    parked.txt
-    history.txt
-    stats.txt
+├── include/
+│   ├── bike.h
+│   ├── billing.h
+│   ├── car.h
+│   ├── constant.h
+│   ├── displayAll.h
+│   ├── parkVehicle.h
+│   ├── persistence.h
+│   ├── pricing.h
+│   ├── receipt.h
+│   ├── removeVehicle.h
+│   ├── showHistory.h
+│   ├── showStats.h
+│   ├── utils.h
+│   ├── vehicle.h
+│   └── vehicleBase.h
+│
+├── src/
+│   ├── billing.cpp
+│   ├── displayAll.cpp
+│   ├── main.cpp
+│   ├── parkVehicle.cpp
+│   ├── persistence.cpp
+│   ├── pricing.cpp
+│   ├── receipt.cpp
+│   ├── removeVehicle.cpp
+│   ├── showHistory.cpp
+│   ├── showStats.cpp
+│   └── utils.cpp
+│
+├── docs/
+│   ├── flowchart.jpg
+│   └── uml_class_diagram.png
+│
+├── data/   (auto-generated at runtime)
+│   ├── parked.txt
+│   ├── history.txt
+│   └── stats.txt
+│
+└── README.md
+
 ```
 
 ## **How to Compile & Run**
