@@ -1,7 +1,7 @@
 
 #include <iostream>
-#include "showHistory.h"
-#include "utils.h"
+#include "../include/showHistory.h"
+#include "../include/utils.h"
 using namespace std;
 void showHistory(const vector<History>&h){
  if(h.empty()){cout<<"No history.\n";return;}

@@ -1,14 +1,14 @@
 #include <iostream>
 #include <ctime>
 #include "removeVehicle.h"
-#include "billing.h"
-#include "receipt.h"
-#include "utils.h"
+#include "../include/billing.h"
+#include "../include/receipt.h"
+#include "../include/utils.h"
 
 // NEW FILES FOR POLYMORPHISM
-#include "vehicleBase.h"
-#include "car.h"
-#include "bike.h"
+#include "../include/vehicleBase.h"
+#include "../include/car.h"
+#include "../include/bike.h"
 
 using namespace std;
 
