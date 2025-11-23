@@ -59,8 +59,15 @@ C++ Project/
 │   ├── showStats.cpp
 │   └── utils.cpp
 │
-├── demo/
-│   └── flowchart.jpg
+├── images/
+│   ├── flowchart.jpg
+│   └── screenshots/
+│       ├── case1.jpg
+│       ├── case2.jpg
+│       ├── case3.jpg
+│       ├── case4.jpg
+│       ├── case5.jpg
+│       └── case6.jpg
 │
 ├── data/   (auto-generated at runtime)
 │   ├── parked.txt
