@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/pricing.h"
+#include "pricing.h"
 using namespace std;
 void showPricingTable(){
  cout<<"============================================\n";

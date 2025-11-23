@@ -1,9 +1,9 @@
 
 #include <iostream>
 #include <iomanip>
-#include "../include/receipt.h"
-#include "../include/utils.h"
-#include "../include/billing.h"
+#include "receipt.h"
+#include "utils.h"
+#include "billing.h"
 using namespace std;
 
 void printReceiptInclusiveGST(const string&ps,const string&pp,const string&no,const string&t,time_t en,time_t ex,double price){

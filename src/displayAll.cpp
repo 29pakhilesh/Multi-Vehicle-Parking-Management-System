@@ -1,7 +1,7 @@
 
 #include <iostream>
-#include "../include/displayAll.h"
-#include "../include/utils.h"
+#include "displayAll.h"
+#include "utils.h"
 using namespace std;
 void displayAll(const vector<Vehicle>&v){
  if(v.empty()){cout<<"No vehicles.\n";return;}

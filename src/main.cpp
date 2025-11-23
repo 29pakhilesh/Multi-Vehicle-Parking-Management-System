@@ -1,15 +1,15 @@
 
 #include <iostream>
 #include <vector>
-#include "../include/vehicle.h"
-#include "../include/constant.h"
-#include "../include/parkVehicle.h"
-#include "../include/removeVehicle.h"
-#include "../include/displayAll.h"
-#include "../include/showHistory.h"
-#include "../include/showStats.h"
-#include "../include/pricing.h"
-#include "../include/persistence.h"
+#include "vehicle.h"
+#include "constant.h"
+#include "parkVehicle.h"
+#include "removeVehicle.h"
+#include "displayAll.h"
+#include "showHistory.h"
+#include "showStats.h"
+#include "pricing.h"
+#include "persistence.h"
 using namespace std;
 
 void menu(){

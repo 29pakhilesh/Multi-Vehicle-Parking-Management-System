@@ -1,8 +1,8 @@
 
 #include <iostream>
 #include <algorithm>
-#include "../include/parkVehicle.h"
-#include "../include/vehicle.h"
+#include "parkVehicle.h"
+#include "vehicle.h"
 using namespace std;
 void parkVehicle(vector<Vehicle>&v,int &cc,int&cb,int&tv,int&tc,int&tb,int MC,int MB){
  string t,no; 
